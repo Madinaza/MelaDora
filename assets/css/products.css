@@ -1,0 +1,2564 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cormorant Garamond;
+}
+
+header {
+  overflow-x: hidden;
+  z-index: 999;
+}
+header .header-part {
+  height: 130px;
+  position: relative;
+  z-index: 1111111;
+}
+header .header-part .container .phone-social {
+  position: relative;
+  z-index: 9999;
+  top: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #b6b6b6;
+  padding-bottom: 10px;
+}
+header .header-part .container .phone-social .phone .phoneImg {
+  width: 17.98px;
+  height: 18px;
+}
+header .header-part .container .phone-social .phone .numbers {
+  font-family: Cormorant Garamond;
+  font-size: 16px;
+  color: rgb(12, 11, 11);
+  margin-left: 10px;
+}
+header .header-part .container .phone-social .social a {
+  text-decoration: none;
+  margin-left: 16.5px;
+}
+header .header-part .container .logo-nav {
+  position: relative;
+  z-index: 2;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-part .container .logo-nav .hamburger {
+  display: none;
+}
+header .header-part .container .logo-nav .logo .mela-dore {
+  width: 113.73px;
+  height: 44.56px;
+}
+header .header-part .container .logo-nav .nav-bar {
+  display: flex;
+}
+header .header-part .container .logo-nav .nav-bar ul {
+  display: flex;
+  list-style: none;
+}
+header .header-part .container .logo-nav .nav-bar ul a {
+  text-decoration: none;
+  font-family: Cormorant Garamond;
+  font-size: 22px;
+  color: rgb(14, 13, 13);
+  transition: 0.2s;
+  border-radius: 50px;
+  padding: 10px 25px;
+  margin-left: 5px;
+}
+header .header-part .container .logo-nav .nav-bar ul a:hover {
+  color: black;
+  background: white;
+}
+header .header-part .container .logo-nav .nav-bar ul a.active {
+  color: black;
+  background: white;
+}
+header .header-part .container .logo-nav .nav-bar .search {
+  width: 20.81px;
+  height: 20.8px;
+  margin-left: 30px;
+}
+
+.back {
+  background-image: url("../images/close-up-woman-harvesting-garden.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 470px;
+  position: relative;
+}
+.back .unnamed {
+  position: absolute;
+  right: 90px;
+  bottom: -100px;
+  width: 220px;
+  height: 215px;
+}
+
+.product {
+  position: relative;
+  top: 20px;
+}
+.product .gover {
+  position: relative;
+  left: -60px;
+}
+.product .title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: -130px;
+  margin-left: 260px;
+}
+.product .category ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  margin-bottom: -50px;
+}
+.product .category ul li {
+  transition: 0.5s;
+  cursor: pointer;
+}
+.product .category ul li.active a {
+  color: #91B40D;
+}
+.product .category ul li a {
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+}
+.product .productall {
+  display: flex;
+  margin: 80px 10px;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+.product .productall .product {
+  margin: 20px 12px;
+  position: relative;
+  left: -30px;
+}
+.product .productall .product .apple {
+  position: relative;
+  left: 75px;
+  width: 230px;
+  height: 230px;
+  border-radius: 10px;
+}
+.product .productall .product .apple:hover {
+  background-color: #fff;
+  box-shadow: 3px 5px 8px rgba(112, 112, 112, 0.2392156863);
+  transition: 0.3s ease-in-out;
+}
+.product .productall .product .apple .appIMG {
+  width: 200px;
+  height: 200px;
+  margin-left: 15px;
+}
+.product .productall .product .applePrice {
+  position: relative;
+  top: -60px;
+  left: 99px;
+  border: 1px solid #fff;
+  width: 182px;
+  height: 74px;
+  background-color: #fff;
+  box-shadow: 3px 5px 8px rgba(112, 112, 112, 0.2392156863);
+  border-radius: 10px;
+}
+.product .productall .product .applePrice .pname {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 7px;
+}
+.product .productall .product .applePrice .price-Img {
+  position: relative;
+  top: -30px;
+  text-align: center;
+}
+.product .productall .product .applePrice .price-Img .price {
+  color: #91B40D;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.social-res {
+  position: relative;
+  top: 40px;
+}
+.social-res .gover {
+  position: relative;
+  left: -60px;
+}
+.social-res .title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: -130px;
+  margin-left: 260px;
+}
+.social-res .soc-paragh {
+  font-size: 22px;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  padding: 0 300px;
+  margin-bottom: 150px;
+}
+
+.contactUs {
+  position: relative;
+  margin-top: 30px;
+}
+.contactUs .gover {
+  position: relative;
+  left: -60px;
+}
+.contactUs .title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: -130px;
+  margin-left: 260px;
+}
+.contactUs .contactss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 0px;
+}
+.contactUs .contactss .main {
+  background-color: #F5F5F5;
+  width: 300px;
+  height: 250px;
+  position: relative;
+  top: 140px;
+  margin: 20px;
+  margin-bottom: 150px;
+}
+.contactUs .contactss .main .images {
+  position: absolute;
+  left: 20px;
+}
+.contactUs .contactss .main .images .mimg {
+  width: 140px;
+  height: 140px;
+  position: relative;
+  z-index: 2;
+  top: -60px;
+}
+.contactUs .contactss .main .images .oimg {
+  width: 61px;
+  height: 61px;
+  position: relative;
+  top: -65px;
+  left: 103px;
+  z-index: 3;
+}
+.contactUs .contactss .main .parcon {
+  font-size: 20px;
+  position: relative;
+  top: 80px;
+  left: 30px;
+}
+
+#footer {
+  position: relative;
+  top: -500px;
+  height: 550px;
+}
+#footer .over {
+  width: 100%;
+  height: 290px;
+  position: relative;
+  bottom: -500px;
+  z-index: -1;
+}
+#footer .main {
+  position: relative;
+  bottom: -420px;
+  z-index: -1;
+  width: 100%;
+}
+#footer .copy-right-sec {
+  border-top: 1px solid rgb(192, 190, 190);
+  color: #000;
+  margin-top: 50px;
+  font-size: 25px;
+}
+#footer .copy-right-sec i {
+  margin: 0 5px;
+}
+#footer .logo-footer {
+  max-width: 400px;
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+#footer .use-links {
+  margin-top: 90px;
+  line-height: 32px;
+  margin-left: 80px;
+}
+#footer .use-links li {
+  list-style: none;
+}
+#footer .use-links li i {
+  font-size: 18px;
+  padding-right: 8px;
+  color: #000;
+}
+#footer .use-links li a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+}
+
+.gardens {
+  position: relative;
+  margin-top: 30px;
+  position: relative;
+  top: 20px;
+  margin-bottom: 100px;
+}
+.gardens .gover {
+  position: relative;
+  left: -60px;
+}
+.gardens .title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: -130px;
+  margin-left: 260px;
+}
+.gardens .gards .gard {
+  display: flex;
+  position: relative;
+  top: 130px;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
+}
+.gardens .gards .gard .gimg {
+  width: 520px;
+  height: 520px;
+}
+.gardens .gards .gard .gn1 {
+  font-size: 130px;
+  color: #918F8F;
+  margin-bottom: -25px;
+}
+.gardens .gards .gard .gt1 {
+  font-size: 35px;
+}
+.gardens .gards .gard .gp1 {
+  font-size: 18px;
+  width: 570px;
+}
+.gardens .gards .gard2 {
+  display: flex;
+  position: relative;
+  top: 130px;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
+}
+.gardens .gards .gard2 .gimg {
+  width: 520px;
+  height: 520px;
+}
+.gardens .gards .gard2 .gn1 {
+  font-size: 130px;
+  color: #918F8F;
+  margin-bottom: -25px;
+  width: 550px;
+  text-align: end;
+}
+.gardens .gards .gard2 .gt1 {
+  width: 550px;
+  font-size: 35px;
+  text-align: end;
+}
+.gardens .gards .gard2 .gp1 {
+  font-size: 18px;
+  width: 570px;
+}
+
+.xidmetUs {
+  position: relative;
+  margin-top: 30px;
+}
+.xidmetUs .gover {
+  position: relative;
+  left: -60px;
+}
+.xidmetUs .title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: -130px;
+  margin-left: 260px;
+}
+.xidmetUs .xidmet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 0px;
+}
+.xidmetUs .xidmet .mainX {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  top: 100px;
+  margin: 60px;
+  margin-bottom: 150px;
+}
+.xidmetUs .xidmet .mainX .first {
+  position: absolute;
+  left: 20px;
+}
+.xidmetUs .xidmet .mainX .parcon {
+  font-size: 16px;
+  position: relative;
+  top: 80px;
+}
+.xidmetUs .xidmet .mainX .parcon .mainxtitle {
+  color: #1A5221;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 1400px) {
+  .phone-social {
+    display: none !important;
+  }
+  .logo-nav {
+    position: relative;
+    z-index: 2;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo-nav .logo .mela-dore {
+    width: 113.73px;
+    height: 44.56px;
+  }
+  .logo-nav .nav-bar {
+    display: flex;
+    margin-top: 20px !important;
+  }
+  .logo-nav .nav-bar ul {
+    display: flex;
+    list-style: none;
+  }
+  .logo-nav .nav-bar ul a {
+    text-decoration: none;
+    font-family: Cormorant Garamond;
+    font-size: 22px;
+    color: rgb(9, 9, 9);
+    transition: 0.2s;
+    border-radius: 50px;
+    padding: 10px !important;
+    margin-left: 5px;
+  }
+  .logo-nav .nav-bar ul a:hover {
+    color: black;
+    background: white;
+  }
+  .logo-nav .nav-bar ul a.active {
+    color: black;
+    background: white;
+  }
+  #footer {
+    position: relative;
+    top: -600px;
+    height: 400px;
+  }
+  #footer .over {
+    width: 100%;
+    height: 290px;
+    position: relative;
+    bottom: -520px;
+    z-index: -1;
+  }
+  #footer .main {
+    position: relative;
+    bottom: -470px;
+    z-index: -1;
+    width: 100%;
+  }
+  #footer .copy-right-sec {
+    border-top: 1px solid rgb(192, 190, 190);
+    color: #000;
+    margin: 50px;
+    font-size: 25px;
+  }
+  #footer .copy-right-sec i {
+    margin: 0 5px;
+  }
+  #footer .logo-footer {
+    max-width: 400px;
+    width: 200px;
+    margin-top: 180px;
+    margin-left: 30px;
+  }
+  #footer .use-links {
+    margin-top: 150px;
+    line-height: 32px;
+    margin-left: 80px;
+  }
+  #footer .use-links li {
+    list-style: none;
+  }
+  #footer .use-links li i {
+    font-size: 18px;
+    padding-right: 8px;
+    color: #000;
+  }
+  #footer .use-links li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+  }
+  .gardens {
+    position: relative;
+    margin-top: 30px;
+    position: relative;
+    top: 20px;
+  }
+  .gardens .gover {
+    position: relative;
+    left: -60px;
+  }
+  .gardens .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: -130px;
+    margin-left: 260px;
+  }
+  .gardens .gards .gard {
+    display: flex;
+    position: relative;
+    top: 130px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+  }
+  .gardens .gards .gard .gimg {
+    width: 520px;
+    height: 520px;
+  }
+  .gardens .gards .gard .gn1 {
+    font-size: 130px;
+    color: #918F8F;
+    margin-bottom: -25px;
+  }
+  .gardens .gards .gard .gt1 {
+    font-size: 35px;
+  }
+  .gardens .gards .gard .gp1 {
+    font-size: 18px;
+    width: 570px;
+  }
+  .gardens .gards .gard2 {
+    display: flex;
+    position: relative;
+    top: 130px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+  }
+  .gardens .gards .gard2 .gimg {
+    width: 520px;
+    height: 520px;
+    margin-left: 50px;
+  }
+  .gardens .gards .gard2 .gn1 {
+    font-size: 130px;
+    color: #918F8F;
+    margin-bottom: -25px;
+    width: 550px;
+    text-align: end;
+  }
+  .gardens .gards .gard2 .gt1 {
+    width: 550px;
+    font-size: 35px;
+    text-align: end;
+  }
+  .gardens .gards .gard2 .gp1 {
+    font-size: 18px;
+    width: 570px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .logo-nav {
+    position: relative;
+    z-index: 2;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo-nav .logo {
+    position: relative;
+    left: -25px;
+  }
+  .logo-nav .logo .mela-dore {
+    width: 113.73px;
+    height: 44.56px;
+  }
+  .logo-nav .nav-bar {
+    display: flex;
+    margin-top: 20px !important;
+    position: relative;
+    left: 30px !important;
+  }
+  .logo-nav .nav-bar ul {
+    display: flex;
+    list-style: none;
+  }
+  .logo-nav .nav-bar ul a {
+    text-decoration: none;
+    font-family: Cormorant Garamond;
+    font-size: 22px;
+    color: #000;
+    transition: 0.2s;
+    border-radius: 50px;
+    padding: 10px 5px !important;
+    margin-left: 5px;
+  }
+  .logo-nav .nav-bar ul a:hover {
+    color: black;
+    background: white;
+  }
+  .logo-nav .nav-bar ul a.active {
+    color: black;
+    background: white;
+  }
+  .logo-nav .nav-bar .search {
+    width: 20.81px;
+    height: 20.8px;
+    margin-left: 30px;
+  }
+  .product {
+    position: relative;
+    top: 20px;
+  }
+  .product .gover {
+    position: relative;
+    left: -60px;
+  }
+  .product .title {
+    margin-left: 220px;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: -130px;
+  }
+  .product .category {
+    margin-bottom: -120px;
+  }
+  .product .category ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .product .category ul li {
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .product .category ul li.active a {
+    color: #91B40D;
+  }
+  .product .category ul li a {
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+  }
+  .product .pall {
+    overflow-x: hidden !important;
+  }
+  .product .pall .productall {
+    display: flex;
+    margin: 80px -90px;
+    position: relative;
+    left: 80px;
+    flex-wrap: wrap;
+  }
+  .product .pall .productall .product {
+    margin: 20px 12px;
+    position: relative;
+    left: -30px;
+  }
+  .product .pall .productall .product .apple {
+    position: relative;
+    left: 75px;
+    width: 281px;
+    height: 285px;
+    border-radius: 10px;
+  }
+  .product .pall .productall .product .apple:hover {
+    background-color: #fff;
+    box-shadow: 3px 5px 8px rgba(112, 112, 112, 0.2392156863);
+    transition: 0.3s ease-in-out;
+  }
+  .product .pall .productall .product .apple .appIMG {
+    width: 250px;
+    height: 265px;
+    margin-left: 15px;
+  }
+  .product .pall .productall .product .applePrice {
+    position: relative;
+    top: -60px;
+    left: 124px;
+    border: 1px solid #fff;
+    width: 182px;
+    height: 74px;
+    background-color: #fff;
+    box-shadow: 3px 5px 8px rgba(112, 112, 112, 0.2392156863);
+    border-radius: 10px;
+  }
+  .product .pall .productall .product .applePrice .pname {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 7px;
+  }
+  .product .pall .productall .product .applePrice .price-Img {
+    position: relative;
+    top: -30px;
+    text-align: center;
+  }
+  .product .pall .productall .product .applePrice .price-Img .price {
+    color: #91B40D;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  #footer {
+    position: relative;
+    top: -600px;
+    height: 400px;
+  }
+  #footer .over {
+    width: 100%;
+    height: 290px;
+    position: relative;
+    bottom: -520px;
+    z-index: -1;
+  }
+  #footer .main {
+    position: relative;
+    bottom: -470px;
+    z-index: -1;
+    width: 100%;
+  }
+  #footer .copy-right-sec {
+    border-top: 1px solid rgb(192, 190, 190);
+    color: #000;
+    margin: 20px;
+    font-size: 25px;
+  }
+  #footer .copy-right-sec i {
+    margin: 0 5px;
+  }
+  #footer .logo-footer {
+    max-width: 400px;
+    width: 200px;
+    margin-top: 210px;
+    margin-left: 30px;
+  }
+  #footer .use-links {
+    margin-top: 200px;
+    line-height: 32px;
+    margin-left: 80px;
+  }
+  #footer .use-links li {
+    list-style: none;
+  }
+  #footer .use-links li i {
+    font-size: 18px;
+    padding-right: 8px;
+    color: #000;
+  }
+  #footer .use-links li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+  }
+  .contactUs .gover {
+    position: relative;
+    left: -60px;
+  }
+  .contactUs .title {
+    margin-left: 220px;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: -130px;
+  }
+  .contactUs .contactss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .contactUs .contactss .main {
+    background-color: #F5F5F5;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: 140px;
+    margin: 20px;
+    margin-bottom: 250px !important;
+  }
+  .gardens {
+    position: relative;
+    margin-top: 30px;
+  }
+  .gardens .gover {
+    position: relative;
+    left: -60px;
+  }
+  .gardens .title {
+    margin-left: 220px;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: -130px;
+  }
+  .gardens .gover {
+    position: relative;
+    left: -60px;
+  }
+  .gardens .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: -130px;
+    margin-left: 260px;
+  }
+  .gardens .gards .gard {
+    display: flex;
+    position: relative;
+    top: 130px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+  }
+  .gardens .gards .gard .gimg {
+    width: 420px;
+    height: 420px;
+  }
+  .gardens .gards .gard .gn1 {
+    position: relative;
+    top: -60px;
+    font-size: 130px;
+    color: #918F8F;
+    margin-bottom: -25px;
+  }
+  .gardens .gards .gard .gt1 {
+    position: relative;
+    top: -60px;
+    font-size: 35px;
+  }
+  .gardens .gards .gard .gp1 {
+    position: relative;
+    top: -60px;
+    font-size: 18px;
+    width: 470px;
+  }
+  .gardens .gards .gard2 {
+    display: flex;
+    position: relative;
+    top: 130px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+  }
+  .gardens .gards .gard2 .gimg {
+    width: 420px;
+    height: 420px;
+    margin-left: 50px;
+  }
+  .gardens .gards .gard2 .gn1 {
+    position: relative;
+    top: -60px;
+    font-size: 130px;
+    color: #918F8F;
+    margin-bottom: -25px;
+    width: 470px;
+    text-align: end;
+  }
+  .gardens .gards .gard2 .gt1 {
+    position: relative;
+    top: -60px;
+    width: 470px;
+    font-size: 35px;
+    text-align: end;
+  }
+  .gardens .gards .gard2 .gp1 {
+    position: relative;
+    top: -60px;
+    font-size: 18px;
+    width: 470px;
+  }
+  .xidmetUs {
+    position: relative;
+    margin-top: 30px;
+  }
+  .xidmetUs .gover {
+    position: relative;
+    left: -60px;
+  }
+  .xidmetUs .title {
+    margin-left: 220px;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: -130px;
+  }
+  .xidmetUs .xidmet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0px;
+  }
+  .xidmetUs .xidmet .mainX {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: 100px;
+    margin: 20px !important;
+    margin-bottom: 150px;
+  }
+  .xidmetUs .xidmet .mainX .first {
+    position: absolute;
+    left: 20px;
+  }
+  .xidmetUs .xidmet .mainX .parcon {
+    font-size: 16px;
+    position: relative;
+    top: 80px;
+  }
+  .xidmetUs .xidmet .mainX .parcon .mainxtitle {
+    color: #1A5221;
+    font-size: 25px;
+    margin: 20px 0;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .header-part {
+    height: 120px !important;
+  }
+  .logo-nav {
+    position: relative;
+    z-index: 9999;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo-nav .search {
+    display: none;
+  }
+  .logo-nav .nav-bar {
+    display: flex;
+  }
+  .logo-nav .nav-bar ul {
+    display: flex;
+    list-style: none;
+  }
+  .logo-nav .nav-bar ul a {
+    text-decoration: none;
+    font-family: Cormorant Garamond;
+    font-size: 22px;
+    color: #fff !important;
+    transition: 0.2s;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-left: 5px;
+  }
+  .logo-nav .nav-bar ul a:hover {
+    color: #fff;
+    background: #000;
+  }
+  .logo-nav .nav-bar ul a.active {
+    background-color: #000 !important;
+  }
+  .logo-nav .nav-bar .search {
+    width: 20.81px;
+    height: 20.8px;
+    margin-left: 30px;
+  }
+  .logo-nav .mobile-toggle .hamburger {
+    display: block !important;
+    position: absolute;
+    z-index: 999;
+    top: 24px;
+    right: -20px;
+    aspect-ratio: 1;
+    font-size: 20px;
+    color: #000;
+  }
+  .logo-nav .logo .mela-dore {
+    width: 113.73px;
+    height: 44.56px;
+  }
+  .logo-nav .primary-navigation {
+    position: fixed;
+    z-index: 111 !important;
+    inset: 0 0 0 30%;
+    top: 0px;
+    background: hsla(0deg, 0%, 0%, 0.5);
+    flex-direction: column;
+    padding: min(20vh, 10rem) 3rem;
+    -webkit-backdrop-filter: blur(0.5rem);
+            backdrop-filter: blur(0.5rem);
+    gap: 2.5rem;
+    transform: translateX(200%);
+    transition: transform 350ms ease-in-out;
+    margin-left: 170px;
+  }
+  .logo-nav .primary-navigation[data-visible=true] {
+    transform: translateX(0%);
+  }
+  .unnamed {
+    position: absolute;
+    right: 90px;
+    bottom: -90px;
+    width: 180px !important;
+    height: 180px !important;
+  }
+  #footer {
+    position: relative;
+    top: -600px;
+    height: 500px !important;
+  }
+  #footer .over {
+    width: 100%;
+    height: 290px;
+    position: relative;
+    bottom: -530px;
+    z-index: -1;
+  }
+  #footer .main {
+    position: relative;
+    bottom: -470px;
+    height: 370px !important;
+    z-index: -1;
+    width: 100%;
+  }
+  #footer .logo-footer {
+    max-width: 200px;
+    position: relative;
+    right: 40px;
+    top: -30px;
+  }
+  #footer .use-links {
+    line-height: 32px;
+    margin-left: 35px;
+    position: relative;
+    top: -40px;
+  }
+  #footer .use-links li {
+    list-style: none;
+  }
+  #footer .use-links li i {
+    font-size: 18px;
+    padding-right: 8px;
+    color: #000;
+  }
+  #footer .use-links li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+  }
+  .soc-paragh {
+    font-size: 22px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    padding: 0 50px !important;
+  }
+  .contactUs .gover {
+    position: relative;
+    left: -60px;
+  }
+  .contactUs .title {
+    margin-left: 220px;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: -130px;
+  }
+  .contactUs .contactss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .contactUs .contactss .main {
+    background-color: #F5F5F5;
+    width: 250px !important;
+    height: 230px !important;
+    position: relative;
+    top: 140px;
+    margin: 20px;
+    margin-bottom: 150px;
+  }
+  .contactUs .contactss .main .images {
+    position: absolute;
+    left: 20px;
+  }
+  .contactUs .contactss .main .images .mimg {
+    width: 110px !important;
+    height: 110px !important;
+    position: relative;
+    z-index: 2;
+    top: -53px !important;
+    left: -23px !important;
+  }
+  .contactUs .contactss .main .images .oimg {
+    width: 43px !important;
+    height: 42px !important;
+    position: relative;
+    top: -58px !important;
+    left: 57px !important;
+    z-index: 3;
+  }
+  .contactUs .contactss .main .parcon {
+    font-size: 17px !important;
+    position: relative;
+    top: 80px;
+    left: 10px !important;
+  }
+  .gardens {
+    position: relative;
+    margin-top: 30px;
+  }
+  .gardens .gover {
+    position: relative;
+    left: -60px;
+  }
+  .gardens .title {
+    margin-left: 220px;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: -130px;
+  }
+  .gardens .gover {
+    position: relative;
+    left: -60px;
+  }
+  .gardens .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: -130px;
+    margin-left: 260px;
+  }
+  .gardens .gards .gard {
+    display: flex;
+    position: relative;
+    top: 130px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+  }
+  .gardens .gards .gard .gimg {
+    width: 360px;
+    height: 360px;
+  }
+  .gardens .gards .gard .gn1 {
+    position: relative;
+    top: -60px;
+    left: 30px;
+    font-size: 110px;
+    color: #918F8F;
+    margin-bottom: -25px;
+  }
+  .gardens .gards .gard .gt1 {
+    position: relative;
+    top: -60px;
+    left: 30px;
+    font-size: 31px;
+  }
+  .gardens .gards .gard .gp1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+    font-size: 15px;
+    width: 400px;
+  }
+  .gardens .gards .gard2 {
+    display: flex;
+    position: relative;
+    top: 130px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+  }
+  .gardens .gards .gard2 .gimg {
+    width: 360px;
+    height: 360px;
+    margin-left: 50px;
+  }
+  .gardens .gards .gard2 .gn1 {
+    position: relative;
+    top: -60px;
+    font-size: 110px;
+    color: #918F8F;
+    margin-bottom: -25px;
+    width: 400px;
+    right: 30px;
+    text-align: end;
+  }
+  .gardens .gards .gard2 .gt1 {
+    position: relative;
+    top: -60px;
+    right: 30px;
+    width: 400px;
+    font-size: 31px;
+    text-align: end;
+  }
+  .gardens .gards .gard2 .gp1 {
+    position: relative;
+    top: -60px;
+    font-size: 15px;
+    right: 20px;
+    width: 400px;
+  }
+  .xidmetUs {
+    position: relative;
+    margin-top: 30px;
+  }
+  .xidmetUs .gover {
+    position: relative;
+    left: -60px;
+  }
+  .xidmetUs .title {
+    margin-left: 220px;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: -130px;
+  }
+  .xidmetUs .xidmet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0px;
+  }
+  .xidmetUs .xidmet .mainX {
+    width: 250px !important;
+    height: 250px;
+    position: relative;
+    top: 100px;
+    margin: 7px !important;
+    margin-bottom: 150px;
+  }
+  .xidmetUs .xidmet .mainX .first {
+    position: absolute;
+    left: 20px;
+  }
+  .xidmetUs .xidmet .mainX .parcon {
+    font-size: 16px;
+    position: relative;
+    top: 80px;
+  }
+  .xidmetUs .xidmet .mainX .parcon .mainxtitle {
+    color: #1A5221;
+    font-size: 25px;
+    margin: 20px 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .unnamed {
+    display: none;
+  }
+  .logo-nav {
+    position: relative;
+    z-index: 999;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo-nav .search {
+    display: none;
+  }
+  .logo-nav .nav-bar {
+    display: flex;
+  }
+  .logo-nav .nav-bar ul {
+    display: flex;
+    list-style: none;
+  }
+  .logo-nav .nav-bar ul a {
+    text-decoration: none;
+    font-family: Cormorant Garamond;
+    font-size: 22px;
+    color: #fff !important;
+    transition: 0.2s;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-left: 5px;
+  }
+  .logo-nav .nav-bar ul a:hover {
+    color: #fff;
+    background: #000;
+  }
+  .logo-nav .nav-bar ul a.active {
+    background-color: #000 !important;
+  }
+  .logo-nav .nav-bar .search {
+    width: 20.81px;
+    height: 20.8px;
+    margin-left: 30px;
+  }
+  .logo-nav .mobile-toggle .hamburger {
+    display: block !important;
+    position: absolute;
+    z-index: 999;
+    top: 24px;
+    right: -20px;
+    aspect-ratio: 1;
+    font-size: 20px;
+    color: rgb(8, 7, 7);
+  }
+  .logo-nav .logo .mela-dore {
+    width: 113.73px;
+    height: 44.56px;
+  }
+  .logo-nav .primary-navigation {
+    z-index: 9999;
+    position: fixed;
+    inset: 0 0 0 30%;
+    background: hsla(0deg, 0%, 0%, 0.5);
+    flex-direction: column;
+    padding: min(20vh, 10rem) 3rem;
+    -webkit-backdrop-filter: blur(0.5rem);
+            backdrop-filter: blur(0.5rem);
+    gap: 2.5rem;
+    transform: translateX(200%);
+    margin-left: 100px;
+  }
+  .logo-nav .primary-navigation[data-visible=true] {
+    transform: translateX(0%);
+  }
+  .product {
+    position: relative;
+    top: 30px;
+  }
+  .product .gover {
+    position: relative;
+    left: -60px;
+  }
+  .product .title {
+    margin-left: 200px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: -100px;
+  }
+  .product .tund {
+    display: none;
+  }
+  .product .category ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: -5px 0px;
+    position: relative;
+    left: -40px;
+  }
+  .product .category ul li {
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .product .category ul li.active a {
+    color: #91B40D;
+  }
+  .product .category ul li a {
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+  }
+  .product .pall {
+    overflow-x: hidden !important;
+  }
+  .product .pall .productall {
+    display: flex;
+    margin: 80px -90px;
+    position: relative;
+    left: 80px;
+    flex-wrap: wrap;
+  }
+  .product .pall .productall .product {
+    margin: 20px 7px;
+    position: relative;
+    left: -80px;
+  }
+  .product .pall .productall .product .apple {
+    position: relative;
+    left: 75px;
+    width: 250px;
+    height: 240px;
+    border-radius: 10px;
+  }
+  .product .pall .productall .product .apple:hover {
+    background-color: #fff;
+    box-shadow: 3px 5px 8px rgba(112, 112, 112, 0.2392156863);
+    transition: 0.3s ease-in-out;
+  }
+  .product .pall .productall .product .apple .appIMG {
+    width: 220px;
+    height: 240px;
+    margin-left: 15px;
+  }
+  .product .pall .productall .product .applePrice {
+    position: relative;
+    top: -43px;
+    left: 107px;
+    border: 1px solid #fff;
+    width: 182px;
+    height: 74px;
+    background-color: #fff;
+    box-shadow: 3px 5px 8px rgba(112, 112, 112, 0.2392156863);
+    border-radius: 10px;
+  }
+  .product .pall .productall .product .applePrice .pname {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 7px;
+  }
+  .product .pall .productall .product .applePrice .price-Img {
+    position: relative;
+    top: -30px;
+    text-align: center;
+  }
+  .product .pall .productall .product .applePrice .price-Img .price {
+    color: #91B40D;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  #footer {
+    position: relative;
+  }
+  #footer .over {
+    display: none;
+  }
+  #footer .main {
+    overflow-x: hidden;
+    position: relative;
+    bottom: -800px;
+    height: 750px !important;
+    z-index: -1;
+    width: 100%;
+  }
+  #footer .copy-right-sec {
+    border-top: 1px solid rgb(192, 190, 190);
+    color: #000;
+    position: relative;
+    top: 170px;
+    font-size: 25px;
+  }
+  #footer .copy-right-sec i {
+    margin: 0 5px;
+  }
+  #footer .logo-footer {
+    max-width: 350px;
+    position: relative;
+    right: -50px;
+    top: -70px;
+    margin-bottom: -170px !important;
+  }
+  #footer .use-links {
+    line-height: 32px;
+    position: relative;
+    top: 150px;
+    margin: 10px 110px;
+  }
+  #footer .use-links li {
+    list-style: none;
+  }
+  #footer .use-links li i {
+    font-size: 18px;
+    padding-right: 8px;
+    color: #000;
+  }
+  #footer .use-links li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+  }
+  .social-res {
+    position: relative;
+    top: 30px;
+  }
+  .social-res .gover {
+    position: relative;
+    left: -60px;
+  }
+  .social-res .title {
+    margin-left: 200px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: -100px;
+  }
+  .social-res .soc-paragh {
+    margin-bottom: 70px !important;
+  }
+  .contactUs .gover {
+    position: relative;
+    left: -60px;
+  }
+  .contactUs .title {
+    margin-left: 255px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: -130px;
+  }
+  .contactUs .contactss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .contactUs .contactss .main {
+    background-color: #F5F5F5;
+    width: 250px !important;
+    height: 200px !important;
+    position: relative;
+    top: 140px;
+    margin: 4px !important;
+    margin-bottom: 150px;
+  }
+  .contactUs .contactss .main .images {
+    position: absolute;
+    left: 20px;
+  }
+  .contactUs .contactss .main .images .mimg {
+    width: 75px !important;
+    height: 75px !important;
+    position: relative;
+    z-index: 2;
+    top: -35px !important;
+    left: 0px !important;
+  }
+  .contactUs .contactss .main .images .oimg {
+    width: 25px !important;
+    height: 25px !important;
+    position: relative;
+    top: -40px !important;
+    left: 55px !important;
+    z-index: 3;
+  }
+  .contactUs .contactss .main .parcon {
+    font-size: 14px !important;
+    position: relative;
+    top: 50px !important;
+    left: 10px !important;
+  }
+  .gardens {
+    position: relative;
+    margin-top: 30px;
+    overflow-x: hidden;
+  }
+  .gardens .gover {
+    position: relative;
+    left: -60px;
+  }
+  .gardens .title {
+    margin-left: 255px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: -130px;
+  }
+  .gardens .gover {
+    position: relative;
+    left: -60px;
+  }
+  .gardens .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: -130px;
+    margin-left: 260px;
+  }
+  .gardens .gards .gard {
+    display: flex;
+    position: relative;
+    top: 130px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+  }
+  .gardens .gards .gard .gimg {
+    width: 310px;
+    height: 310px;
+    position: relative;
+    right: 50px;
+  }
+  .gardens .gards .gard .gn1 {
+    position: relative;
+    top: -60px;
+    left: 30px;
+    font-size: 90px;
+    color: #918F8F;
+    margin-bottom: -25px;
+  }
+  .gardens .gards .gard .gt1 {
+    position: relative;
+    top: -60px;
+    left: 30px;
+    font-size: 26px;
+  }
+  .gardens .gards .gard .gp1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+    font-size: 13px;
+    width: 350px;
+  }
+  .gardens .gards .gard2 {
+    display: flex;
+    position: relative;
+    top: 130px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+  }
+  .gardens .gards .gard2 .gimg {
+    width: 310px;
+    height: 310px;
+    margin-left: 50px;
+    position: relative;
+    left: 50px;
+  }
+  .gardens .gards .gard2 .gn1 {
+    position: relative;
+    top: -60px;
+    font-size: 90px;
+    color: #918F8F;
+    margin-bottom: -25px;
+    width: 370px;
+    right: 30px;
+    text-align: end;
+  }
+  .gardens .gards .gard2 .gt1 {
+    position: relative;
+    top: -60px;
+    right: 30px;
+    width: 370px;
+    font-size: 26px;
+    text-align: end;
+  }
+  .gardens .gards .gard2 .gp1 {
+    position: relative;
+    top: -60px;
+    font-size: 13px;
+    right: 20px;
+    width: 370px;
+  }
+  .xidmetUs {
+    position: relative;
+    margin-top: 30px;
+  }
+  .xidmetUs .gover {
+    position: relative;
+    left: -60px;
+  }
+  .xidmetUs .title {
+    margin-left: 255px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: -130px;
+  }
+  .xidmetUs .xidmet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0px;
+  }
+  .xidmetUs .xidmet .mainX {
+    width: 210px !important;
+    height: 250px;
+    position: relative;
+    top: 100px;
+    margin: 7px !important;
+    margin-bottom: 150px;
+  }
+  .xidmetUs .xidmet .mainX .first {
+    position: absolute;
+    left: 20px;
+    width: 80px;
+  }
+  .xidmetUs .xidmet .mainX .parcon {
+    font-size: 13px;
+    position: relative;
+    top: 80px;
+  }
+  .xidmetUs .xidmet .mainX .parcon .mainxtitle {
+    color: #1A5221;
+    font-size: 19px;
+    margin: 20px 0;
+  }
+}
+@media only screen and (max-width: 578px) {
+  .logo-nav {
+    position: relative;
+    z-index: 2;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo-nav .search {
+    display: none;
+  }
+  .logo-nav .nav-bar {
+    display: flex;
+  }
+  .logo-nav .nav-bar ul {
+    display: flex;
+    list-style: none;
+  }
+  .logo-nav .nav-bar ul a {
+    text-decoration: none;
+    font-family: Cormorant Garamond;
+    font-size: 22px;
+    color: #fff !important;
+    transition: 0.2s;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-left: 5px;
+  }
+  .logo-nav .nav-bar ul a:hover {
+    color: #fff;
+    background: #000;
+  }
+  .logo-nav .nav-bar ul a.active {
+    background-color: #000 !important;
+  }
+  .logo-nav .nav-bar .search {
+    width: 20.81px;
+    height: 20.8px;
+    margin-left: 30px;
+  }
+  .logo-nav .mobile-toggle .hamburger {
+    display: block !important;
+    position: absolute;
+    z-index: 999;
+    top: 24px;
+    right: 40px;
+    aspect-ratio: 1;
+    font-size: 20px;
+    color: #000;
+  }
+  .logo-nav .logo {
+    position: relative;
+    left: 20px;
+  }
+  .logo-nav .logo .mela-dore {
+    width: 113.73px;
+    height: 44.56px;
+  }
+  .logo-nav .primary-navigation {
+    position: fixed;
+    inset: 0 0 0 10%;
+    background: hsla(0deg, 0%, 0%, 0.5);
+    flex-direction: column;
+    padding: min(20vh, 10rem) 3rem;
+    -webkit-backdrop-filter: blur(0.5rem);
+            backdrop-filter: blur(0.5rem);
+    gap: 2.5rem;
+    transform: translateX(200%);
+    margin-left: 100px;
+  }
+  .logo-nav .primary-navigation[data-visible=true] {
+    transform: translateX(0%);
+  }
+  .product {
+    position: relative;
+    margin-top: 90px;
+  }
+  .product .gover {
+    display: none;
+  }
+  .product .title {
+    margin: 50px 180px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: -70px;
+  }
+  .product .category {
+    overflow-x: hidden;
+  }
+  .product .category ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: -5px 0px;
+    position: relative;
+    left: -40px;
+  }
+  .product .category ul li {
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .product .category ul li.active a {
+    color: #91B40D;
+  }
+  .product .category ul li a {
+    margin-left: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+  }
+  .product .pall {
+    overflow-x: hidden !important;
+  }
+  .product .pall .productall {
+    display: flex;
+    margin: 80px -90px;
+    position: relative;
+    left: 50px;
+    flex-wrap: wrap;
+  }
+  .product .pall .productall .product {
+    margin: 20px 7px;
+    position: relative;
+    left: -55px;
+  }
+  .product .pall .productall .product .apple {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+  }
+  .product .pall .productall .product .apple:hover {
+    background-color: #fff;
+    box-shadow: 3px 5px 8px rgba(112, 112, 112, 0.2392156863);
+    transition: 0.3s ease-in-out;
+  }
+  .product .pall .productall .product .apple .appIMG {
+    width: 230px;
+    height: 230px;
+    margin-left: 15px;
+  }
+  .product .pall .productall .product .applePrice {
+    position: relative;
+    top: -43px;
+    left: 110px;
+    border: 1px solid #fff;
+    width: 161px;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 3px 5px 8px rgba(112, 112, 112, 0.24);
+    border-radius: 10px;
+  }
+  .product .pall .productall .product .applePrice .pname {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 7px;
+  }
+  .product .pall .productall .product .applePrice .price-Img {
+    position: relative;
+    top: -30px;
+    text-align: center;
+  }
+  .product .pall .productall .product .applePrice .price-Img .price {
+    color: #91B40D;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .back {
+    background-image: url("../images/close-up-woman-harvesting-garden.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+  }
+  .back .unnamed {
+    position: absolute;
+    right: 90px;
+    bottom: -100px;
+    width: 220px;
+    height: 215px;
+  }
+  .social-res {
+    position: relative;
+    margin-top: 90px;
+  }
+  .social-res .gover {
+    display: none;
+  }
+  .social-res .title {
+    margin: -20px 120px;
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: -70px;
+  }
+  .social-res .soc-paragh {
+    font-size: 18px;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    padding: 0 300px;
+    margin-bottom: 150px;
+  }
+  .contactUs .gover {
+    display: none;
+  }
+  .contactUs .title {
+    margin: -50px 180px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0px;
+  }
+  .contactUs .contactss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .contactUs .contactss .main {
+    background-color: #F5F5F5;
+    width: 250px !important;
+    height: 200px !important;
+    position: relative;
+    top: 140px;
+    margin: 4px !important;
+    margin-bottom: 150px;
+  }
+  .contactUs .contactss .main .images {
+    position: absolute;
+    left: 20px;
+  }
+  .contactUs .contactss .main .images .mimg {
+    width: 75px !important;
+    height: 75px !important;
+    position: relative;
+    z-index: 2;
+    top: -35px !important;
+    left: -7px !important;
+  }
+  .contactUs .contactss .main .images .oimg {
+    width: 25px !important;
+    height: 25px !important;
+    position: relative;
+    top: -40px !important;
+    left: 48px !important;
+    z-index: 3;
+  }
+  .contactUs .contactss .main .parcon {
+    font-size: 14px !important;
+    position: relative;
+    top: 50px !important;
+    left: 10px !important;
+    padding: 0 10px !important;
+  }
+  .xidmetUs {
+    position: relative;
+    margin-top: 30px;
+  }
+  .xidmetUs .gover {
+    display: none;
+  }
+  .xidmetUs .title {
+    margin: -50px 180px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0px;
+  }
+  .xidmetUs .xidmet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0px;
+    flex-wrap: wrap;
+  }
+  .xidmetUs .xidmet .mainX {
+    width: 300px !important;
+    height: 200px !important;
+    position: relative;
+    top: 100px;
+    margin: 50px 20px !important;
+    margin-bottom: 150px;
+  }
+  .xidmetUs .xidmet .mainX .first {
+    position: absolute;
+    left: 20px;
+    width: 80px;
+  }
+  .xidmetUs .xidmet .mainX .parcon {
+    font-size: 13px;
+    position: relative;
+    top: 80px;
+  }
+  .xidmetUs .xidmet .mainX .parcon .mainxtitle {
+    color: #1A5221;
+    font-size: 19px;
+    margin: 20px 0;
+  }
+  .gardens {
+    position: relative;
+    margin-top: 30px;
+    overflow-x: hidden;
+  }
+  .gardens .gover {
+    display: none;
+  }
+  .gardens .title {
+    margin: -50px 180px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0px;
+  }
+  .gardens .gards .gard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 130px;
+  }
+  .gardens .gards .gard .gimg {
+    width: 420px;
+    height: 420px;
+    position: relative;
+    left: 10px;
+    bottom: 50px;
+  }
+  .gardens .gards .gard .gn1 {
+    position: relative;
+    top: -60px;
+    left: 30px;
+    font-size: 110px;
+    color: #918F8F;
+    margin-bottom: -25px;
+  }
+  .gardens .gards .gard .gt1 {
+    position: relative;
+    top: -60px;
+    left: 30px;
+    font-size: 30px;
+  }
+  .gardens .gards .gard .gp1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+    font-size: 18px;
+    width: 370px;
+  }
+  .gardens .gards .gard2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 130px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+  }
+  .gardens .gards .gard2 .gimg {
+    width: 420px;
+    height: 420px;
+    position: relative;
+    top: -560px;
+    left: -20px;
+  }
+  .gardens .gards .gard2 .gn1 {
+    position: relative;
+    top: 370px;
+    font-size: 110px;
+    color: #918F8F;
+    margin-bottom: -25px;
+    width: 370px;
+    left: -20px;
+    text-align: end;
+  }
+  .gardens .gards .gard2 .gt1 {
+    position: relative;
+    top: 380px;
+    left: -20px;
+    width: 370px;
+    font-size: 30px;
+    text-align: end;
+  }
+  .gardens .gards .gard2 .gp1 {
+    position: relative;
+    top: 380px;
+    font-size: 18px;
+    left: 20px;
+    width: 370px;
+  }
+  .gardens .gards .gard3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 130px;
+  }
+  .gardens .gards .gard3 .gimg {
+    width: 420px;
+    height: 420px;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+  }
+  .gardens .gards .gard3 .gn1 {
+    position: relative;
+    top: -60px;
+    left: 50px;
+    font-size: 110px;
+    color: #918F8F;
+    margin-bottom: -25px;
+  }
+  .gardens .gards .gard3 .gt1 {
+    position: relative;
+    top: -60px;
+    left: 50px;
+    font-size: 30px;
+  }
+  .gardens .gards .gard3 .gp1 {
+    position: relative;
+    top: -60px;
+    left: 50px;
+    font-size: 18px;
+    width: 370px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .product {
+    position: relative;
+    margin-top: 80px;
+  }
+  .product .gover {
+    display: none;
+  }
+  .product .title {
+    margin-left: 100px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: -70px;
+  }
+  .product .category {
+    overflow: hidden;
+  }
+  .product .category ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: -5px 0px;
+    position: relative;
+    left: -40px;
+  }
+  .product .category ul li {
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .product .category ul li.active a {
+    color: #91B40D;
+  }
+  .product .category ul li a {
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+  }
+  .product .pall {
+    overflow-x: hidden !important;
+  }
+  .product .pall .productall {
+    display: block;
+    margin: 80px -90px;
+    position: relative;
+    left: 50px;
+  }
+  .product .pall .productall .product {
+    margin: 20px 7px;
+    position: relative;
+    display: block;
+  }
+  .product .pall .productall .product .apple {
+    position: relative;
+    width: 520px;
+    height: 270px;
+    border-radius: 10px;
+  }
+  .product .pall .productall .product .apple:hover {
+    background-color: #fff;
+    box-shadow: 3px 5px 8px rgba(112, 112, 112, 0.2392156863);
+    transition: 0.3s ease-in-out;
+  }
+  .product .pall .productall .product .apple .appIMG {
+    width: 253px;
+    height: 278px;
+    margin-left: 55px;
+  }
+  .product .pall .productall .product .applePrice {
+    position: relative;
+    top: -57px;
+    left: 170px;
+    border: 1px solid #fff;
+    width: 161px;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 3px 5px 8px rgba(112, 112, 112, 0.24);
+    border-radius: 10px;
+  }
+  .product .pall .productall .product .applePrice .pname {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 7px;
+  }
+  .product .pall .productall .product .applePrice .price-Img {
+    position: relative;
+    top: -30px;
+    text-align: center;
+  }
+  .product .pall .productall .product .applePrice .price-Img .price {
+    color: #91B40D;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .contactUs .gover {
+    display: none !important;
+  }
+  .contactUs .title {
+    margin: -50px 180px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0px;
+  }
+  .contactUs .contactss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .contactUs .contactss .main {
+    background-color: #F5F5F5;
+    width: 250px !important;
+    height: 200px !important;
+    position: relative;
+    top: 140px;
+    margin: 4px !important;
+    margin-bottom: 150px;
+  }
+  .contactUs .contactss .main .images {
+    position: absolute;
+    left: 20px;
+  }
+  .contactUs .contactss .main .images .mimg {
+    width: 75px !important;
+    height: 75px !important;
+    position: relative;
+    z-index: 2;
+    top: -35px !important;
+    left: -17px !important;
+  }
+  .contactUs .contactss .main .images .oimg {
+    width: 25px !important;
+    height: 25px !important;
+    position: relative;
+    top: -40px !important;
+    left: 38px !important;
+    z-index: 3;
+  }
+  .contactUs .contactss .main .parcon {
+    font-size: 14px !important;
+    position: relative;
+    top: 50px !important;
+    left: 10px !important;
+    padding: 0 10px !important;
+  }
+  .gard3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 130px;
+  }
+  .gard3 .gimg {
+    width: 100%;
+    height: 420px;
+    position: relative;
+    bottom: 50px;
+    left: -10px !important;
+  }
+  .gard3 .gn1 {
+    position: relative;
+    top: -60px;
+    left: 50px;
+    font-size: 110px;
+    color: #918F8F;
+    margin-bottom: -25px;
+  }
+  .gard3 .gt1 {
+    position: relative;
+    top: -60px;
+    left: 50px;
+    font-size: 30px;
+  }
+  .gard3 .gp1 {
+    position: relative;
+    top: -60px;
+    left: 50px;
+    font-size: 18px;
+    width: 370px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .contactUs .gover {
+    display: none !important;
+  }
+  .contactUs .title {
+    margin: -100px 140px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0px;
+  }
+  .contactUs .contactss {
+    display: block !important;
+    text-align: center;
+    position: relative;
+  }
+  .contactUs .contactss .main {
+    background-color: #F5F5F5;
+    width: 300px !important;
+    height: 250px !important;
+    position: relative;
+    top: 140px;
+    margin: 70px auto !important;
+    margin-bottom: 150px;
+  }
+  .contactUs .contactss .main .images {
+    position: absolute;
+    left: 20px;
+  }
+  .contactUs .contactss .main .images .mimg {
+    width: 110px !important;
+    height: 110px !important;
+    position: relative;
+    z-index: 2;
+    top: -60px !important;
+    left: 30px !important;
+  }
+  .contactUs .contactss .main .images .oimg {
+    width: 45px !important;
+    height: 45px !important;
+    position: relative;
+    top: -65px !important;
+    left: 110px !important;
+    z-index: 3;
+  }
+  .contactUs .contactss .main .parcon {
+    font-size: 22px !important;
+    position: relative;
+    top: 50px !important;
+    left: 10px !important;
+    padding: 0 10px !important;
+  }
+  .xidmetUs {
+    position: relative;
+    margin-top: 30px;
+  }
+  .xidmetUs .gover {
+    display: none;
+  }
+  .xidmetUs .title {
+    margin: -50px 140px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0px;
+  }
+  .xidmetUs .gard3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 130px;
+  }
+  .xidmetUs .gard3 .gimg {
+    width: 470;
+    height: 420px;
+    position: relative;
+    bottom: 50px;
+    left: -10px !important;
+  }
+  .xidmetUs .gard3 .gn1 {
+    position: relative;
+    top: -60px;
+    left: 20px !important;
+    font-size: 110px;
+    color: #918F8F;
+    margin-bottom: -25px;
+  }
+  .xidmetUs .gard3 .gt1 {
+    position: relative;
+    top: -60px;
+    left: 20px !important;
+    font-size: 30px;
+  }
+  .xidmetUs .gard3 .gp1 {
+    position: relative;
+    top: -60px;
+    left: 20px !important;
+    font-size: 18px;
+    width: 370px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .logo-nav {
+    position: relative;
+    z-index: 2;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo-nav .search {
+    display: none;
+  }
+  .logo-nav .nav-bar {
+    display: flex;
+  }
+  .logo-nav .nav-bar ul {
+    display: flex;
+    list-style: none;
+  }
+  .logo-nav .nav-bar ul a {
+    text-decoration: none;
+    font-family: Cormorant Garamond;
+    font-size: 22px;
+    color: #fff !important;
+    transition: 0.2s;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-left: 5px;
+  }
+  .logo-nav .nav-bar ul a:hover {
+    color: #fff;
+    background: #000;
+  }
+  .logo-nav .nav-bar ul a.active {
+    background-color: #000 !important;
+  }
+  .logo-nav .nav-bar .search {
+    width: 20.81px;
+    height: 20.8px;
+    margin-left: 30px;
+  }
+  .logo-nav .mobile-toggle .hamburger {
+    display: block !important;
+    position: absolute;
+    z-index: 999;
+    top: 24px;
+    right: 40px;
+    aspect-ratio: 1;
+    font-size: 20px;
+    color: #000;
+  }
+  .logo-nav .logo {
+    position: relative;
+    left: 20px;
+  }
+  .logo-nav .logo .mela-dore {
+    width: 113.73px;
+    height: 44.56px;
+  }
+  .logo-nav .primary-navigation {
+    position: fixed;
+    inset: 0 0 0 -35%;
+    background: hsla(0deg, 0%, 0%, 0.5);
+    flex-direction: column;
+    padding: min(20vh, 10rem) 3rem;
+    -webkit-backdrop-filter: blur(0.5rem);
+            backdrop-filter: blur(0.5rem);
+    gap: 2.5rem;
+    transform: translateX(200%);
+  }
+  .logo-nav .primary-navigation[data-visible=true] {
+    transform: translateX(0%);
+  }
+  #footer {
+    position: relative;
+    margin-top: 0px;
+  }
+  #footer .over {
+    display: none;
+  }
+  #footer .main {
+    overflow-x: hidden;
+    position: relative;
+    bottom: -800px;
+    height: 900px !important;
+    z-index: -1;
+    width: 100%;
+  }
+  #footer .copy-right-sec {
+    border-top: 1px solid rgb(192, 190, 190);
+    color: #000;
+    position: relative;
+    top: 140px;
+    font-size: 25px;
+  }
+  #footer .copy-right-sec i {
+    margin: 0 5px;
+  }
+  #footer .logo-footer {
+    max-width: 350px;
+    position: relative;
+    right: -20px;
+    top: -130px;
+    margin-bottom: -170px !important;
+  }
+  #footer .use-links {
+    line-height: 32px;
+    position: relative;
+    top: 80px;
+    margin: 10px 50px;
+  }
+  #footer .use-links li {
+    list-style: none;
+  }
+  #footer .use-links li i {
+    font-size: 18px;
+    padding-right: 8px;
+    color: #000;
+  }
+  #footer .use-links li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+  }
+  .social-res {
+    position: relative;
+    margin-top: 90px;
+  }
+  .social-res .gover {
+    display: none;
+  }
+  .social-res .title {
+    margin: -20px 50px;
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: -70px;
+  }
+  .social-res .soc-paragh {
+    font-size: 18px;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    padding: 0 300px;
+    margin-bottom: 150px;
+  }
+}/*# sourceMappingURL=products.css.map */
